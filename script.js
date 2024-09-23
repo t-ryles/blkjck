@@ -172,9 +172,7 @@ function soft17(){
 function hit(index) {
 
   let playerSumSpan = document.getElementById(`player-${index+1}-sum`);
-  //let playerSum = playerSumSpan.innerHTML
-  //console.log(playerSum);
-  
+
     let cardImg = document.createElement("img");
     let card = deck.shift();
     cardImg.src = `./cards/${card}.png`;
@@ -189,17 +187,20 @@ function hit(index) {
     // Checking and updating players ace count
     playersAceCounts[index] += checkAce(card);
 
+    let playerSum = playerSumSpan.innerHTML
+
     cardImg.setAttribute("class", `card-img`);
     document.getElementById(`player-${index + 1}-cards`).append(cardImg);
 
-    checkPlayerSum();
+    playerSum = reduceAce(playerSum, playersAceCounts[index]);
+    playerSumSpan.textContent = playerSum;
+
+  checkPlayerSum();
 }
 
 // Stay funtion when user clicks button
 function stay(){
-  dealerSum = reduceAce(dealerSum, dealerAceCount);
-  console.log(dealerSum);
-  
+  dealerSum = reduceAce(dealerSum, dealerAceCount);  
 
   document.getElementById('hidden').src = `./cards/${hidden}.png`;
 
@@ -398,7 +399,6 @@ function newGame() {
   dealerSum = 0;
   dealerAceCount = 0;
   stayCount = players.length;
-  console.log(stayCount);
   
   clearCardImgs();
   newHand();

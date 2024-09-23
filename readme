@@ -1,4 +1,4 @@
-# AIM Specialization in JavaScript - Blackjack
+# AIM Specialization in JavaScript - Blackjack Game
 Built by: Taj-Hakeem Ryles
 
 ## Project Description
@@ -37,7 +37,7 @@ The following are **optional** features:
 - [ ] Adding sound effects
 - [ ] Different looking deck of cards
 - [ ] Choice of differently looking decks of cards to choose from (in f we can find some)
-- [ ] Demo of game play to go along with rules
+- [x] Demo of game play to go along with rules
 
 The following **additional** features are implemented:
 
