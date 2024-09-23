@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #E6E6E6;
+  background-image: url("./20653.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  padding-bottom: 8px;
+}
+
+#welcome{
+  font-size: 32px;
+}
+
+#dealerHeader {
+  font-size: 24px;
+}
+
+#playersBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#dealer-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 4px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 8px #3d3d41;
+}
+
+.player-sum {
+  font-weight: 600;
+  text-shadow: 1px 1px whitesmoke ,0px 0px 4px white;
+
+  font-size: 32px;
+}
+
+.card-img {
+  height: 225px;
+  width: 175px;
+  margin: 4px;
+  border-radius: 5px;
+  box-shadow: 3px 4px 8px #3d3d41;
+}
+
+button {
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.playerMessage {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3d3d41;
+}
+
+.hit {
+  width: 60px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.stay {
+  width: 60px;
+  height: 30px;
+  font-size: 15px;
+}
+
+#newGame {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+a {
+  display: block;
+  display: none;
+}
+
+.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  width: 60px;
+  height: 30px;
+  font-size: 15px;
+}

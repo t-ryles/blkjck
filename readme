@@ -1,0 +1,76 @@
+# AIM Specialization in JavaScript - Blackjack
+Built by: Taj-Hakeem Ryles
+
+## Project Description
+This is a browser based Blackjack card games built using HTML, CSS, and JavaScript.
+It allows for multiple player and simulates a real Blackjack game play.
+Some of the key features are:
+    - Multiplayer support
+    - Multi deck play
+    - Shuffle deck 
+    - Ace handling logic
+    - Win/Lose conditions
+
+## Tech Stack Used
+- HTML & CSS : UI
+- JavaScript : Game Logic
+- Vitest : Testing
+- Hosting : Netlify
+
+
+The following **required** functionality is completed:
+
+- [x] Dealing in correct order.
+- [x] .5 to 1 second delay in dealing each card to see order if dealing is correct.
+- [x] Game can play with multiple decks.
+- [x] Reshuffle when 60-75 cards left.
+- [x] One, two or three players plus dealer.
+- [x] Dealer getting soft 17.
+- [ ] Splitting
+- [ ] Betting
+- [ ] Doubling down
+
+The following are **optional** features:
+
+- [ ] Animate dealing and flipping of cards
+- [ ] Animate shuffling of cards
+- [ ] Adding sound effects
+- [ ] Different looking deck of cards
+- [ ] Choice of differently looking decks of cards to choose from (in f we can find some)
+- [ ] Demo of game play to go along with rules
+
+The following **additional** features are implemented:
+
+- [x] Implamented unit tests for some of the functions.
+- [x] Active website
+
+## Video Walkthrough
+
+Heres a walkthrough of implemented user stories:
+
+<img src='https://imgur.com/a/CvmJEwi' title='BLKJCK Video Walkthrough' width='' alt='Video Walkthrough' />
+https://imgur.com/a/CvmJEwi
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  screentogif.com
+
+## Notes
+
+Describe any challenges encountered while building the app:
+	- The most challenging part of this project was implamenting multiple players. thats why I made it my top objective. 
+	- Second would be understanding what and how to preform tests.
+
+## License
+    Copyright 2024 Taj-Hakeem Ryles
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
